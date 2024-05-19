@@ -16,7 +16,10 @@ git clone https://github.com/irfanonly/CurrencyConverter.git
 
 ## Run the application
 ```bash
+cd CurrencyConverter
+dotnet restore
 dotnet build
+cd CurrencyConverter.WebAPI
 dotnet run
 ```
 Once application started, we can make sure by opening swagger url [http://localhost:5177/swagger/index.html](http://localhost:5177/swagger/index.html) and we can able to test the endpoints
